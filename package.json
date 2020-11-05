@@ -1,0 +1,18 @@
+{
+  "name": "tsx-tokenization",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/kk-mats/tsx-tokenization.git",
+  "author": "kk-mats <k.mats.kk@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "ts-node": "^9.0.0"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "typescript": "^4.0.5"
+  }
+}
