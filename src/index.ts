@@ -20,7 +20,11 @@ const additionalTokens: Record<number, ts.SyntaxKind> = {
 	[ts.SyntaxKind.TypeAliasDeclaration]: ts.SyntaxKind.TypeKeyword,
 	[ts.SyntaxKind.TypeQuery]: ts.SyntaxKind.TypeOfKeyword,
 	[ts.SyntaxKind.ConditionalType]: ts.SyntaxKind.ExtendsKeyword,
-	[ts.SyntaxKind.InferType]: ts.SyntaxKind.InferKeyword
+	[ts.SyntaxKind.InferType]: ts.SyntaxKind.InferKeyword,
+	[ts.SyntaxKind.SwitchStatement]: ts.SyntaxKind.SwitchKeyword,
+	[ts.SyntaxKind.CaseClause]: ts.SyntaxKind.CaseKeyword,
+	[ts.SyntaxKind.DefaultClause]: ts.SyntaxKind.DefaultKeyword,
+	[ts.SyntaxKind.BreakStatement]: ts.SyntaxKind.BreakKeyword
 };
 
 const formatSyntaxKind = (kind: ts.SyntaxKind) => ts.SyntaxKind[kind];

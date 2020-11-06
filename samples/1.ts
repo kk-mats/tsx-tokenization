@@ -39,7 +39,10 @@ namespace ts {
 		try {
 			const g = 0;
 			if(g) {
-
+				switch(g) {
+					case 0: { break; }
+					default: { F(); }
+				}
 			} else {
 
 			}
